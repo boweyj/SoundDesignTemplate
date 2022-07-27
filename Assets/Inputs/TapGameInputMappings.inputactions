@@ -1,0 +1,83 @@
+{
+    "name": "TapGameInputMappings",
+    "maps": [
+        {
+            "name": "Selections",
+            "id": "fa2cf758-2aec-4f6a-a1c5-5f43d982ec00",
+            "actions": [
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "4573bcc8-872e-4ec9-87cb-8effcc7f2201",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Deselect",
+                    "type": "Button",
+                    "id": "dc862183-43cc-40e6-9e26-263963bdb43c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "MouseMove",
+                    "type": "Value",
+                    "id": "f89af56f-84f2-4e2b-bda6-c1efc30b67e7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7585038c-7cbf-4d34-a9fa-18fb6df7095e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "Deselect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eeb27c46-40b8-4b04-af95-3f9417ff3bf8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9388fc89-ae52-49e3-b2ec-79dcabc97a1b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "MouseMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
